@@ -1,0 +1,9 @@
+---
+
+global:
+  tag1: "set in all_global.yaml"
+  tag2: "set in all_global.yaml"
+  tag3: "set in all_global.yaml"
+  tag4: "set in all_global.yaml"
+  tag5: "set in all_global.yaml"
+  tag6: "set in all_global.yaml"

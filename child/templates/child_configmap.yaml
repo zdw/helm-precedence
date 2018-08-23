@@ -1,0 +1,24 @@
+---
+apiVersion: v1
+kind: ConfigMap
+data:
+  child-configmap: |
+
+    Example 1 - global tag set only in parent
+    child image1 tag: {{ coalesce .Values.image.tag1 .Values.global.tag1 "" }}
+
+    Example 2 - global tag set only in child
+    child image2 tag: {{ coalesce .Values.image.tag2 .Values.global.tag2 "" }}
+
+    Example 3 - "local" tag set only in parent
+    child image3 tag: {{ coalesce .Values.image.tag3 .Values.global.tag3 "" }}
+
+    Example 4 - "local" tag set only in child
+    child image4 tag: {{ coalesce .Values.image.tag4 .Values.global.tag4 "" }}
+
+    Example 5 - global tag set in both
+    child image5 tag: {{ coalesce .Values.image.tag5 .Values.global.tag5 "" }}
+
+    Example 6 - "local" tag set in both
+    child image6 tag: {{ coalesce .Values.image.tag6 .Values.global.tag6 "" }}
+

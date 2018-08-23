@@ -1,0 +1,6 @@
+---
+
+dependencies:
+  - name: child
+    version: 0.1.0-dev0
+    repository: file://../child

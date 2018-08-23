@@ -1,0 +1,11 @@
+---
+# parent values.yaml
+
+global:
+  tag1: "set in global parent"
+  tag5: "set in global parent"
+
+image:
+  tag3: "set in parent"
+  tag6: "set in parent"
+

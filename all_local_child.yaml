@@ -1,0 +1,11 @@
+---
+
+child:
+  image:
+    tag1: "set in all_local_child.yaml"
+    tag2: "set in all_local_child.yaml"
+    tag3: "set in all_local_child.yaml"
+    tag4: "set in all_local_child.yaml"
+    tag5: "set in all_local_child.yaml"
+    tag6: "set in all_local_child.yaml"
+
